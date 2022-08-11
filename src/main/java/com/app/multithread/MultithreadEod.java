@@ -154,8 +154,8 @@ public class MultithreadEod implements Runnable {
                         Thread.currentThread().getName()+"#No2b#"+threadNumber,
                         Thread.currentThread().getName()+"#No3#"+threadNumber,
                         eod.getPreviousBalanced(), eod.getAverageBalanced(),
-                        Thread.currentThread().getName()+"#No1"+threadNumber,
-                        eod.getFreeTransfer(), Thread.currentThread().getName()+"#No2a"+threadNumber);
+                        Thread.currentThread().getName()+"#No1#"+threadNumber,
+                        eod.getFreeTransfer(), Thread.currentThread().getName()+"#No2a#"+threadNumber);
             }
         } catch (Exception ex) {
             ex.printStackTrace();
